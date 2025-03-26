@@ -63,6 +63,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda-11.4/lib64:$LD_LIBRARY_PATH
 # >>> fishros initialize >>>
 source /opt/ros/noetic/setup.zsh
 # <<< fishros initialize <<<
+source # todo : livox dir
+sourde # todo : main program dir
 ```
 
 ### 1.1.2 install tmux 
