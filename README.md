@@ -151,3 +151,37 @@ cd ws_livox/src/livox_ros_driver2
 "cmd_data_ip" : "192.168.1.50",
 "ip" : "192.168.1.140",
 ```
+## 6. clash (x64)
+
+```shell
+
+# step 1
+#下载压缩包
+https://bhpan.buaa.edu.cn/link/AA4CE517FAF9E349A6AB3486F8A35C642E
+文件名：Clash.for.Windows-0.20.39-x64-linux.tar.gz
+有效期限：永久有效
+
+# step 2
+tar -zxvf Clash.for.Windows-0.20.39-x64-linux.tar.gz
+
+# step 3
+cd Clash for Windows-0.20.39-x64-linux
+./cfw
+
+# step 4
+#更改ubuntu系统代理
+#进入ubuntu设置-网络-手动，修改如下参数
+#"HTTP代理（H）" : 127.0.0.1 7890
+#"HTTPS代理（T）" : 127.0.0.1 7890
+#"Socks主机（S）": 127.0.0.1 7891
+
+# step 5
+#与windows下的clash使用方法相同，在cfw-Profiles-import导入节点
+
+# step 5.5
+#在cfw-Proxies中选择节点
+
+# step 6
+#如果可以使用微信（通过cfw-logs查看），但是不能使用浏览器，则还需要更改浏览器的代理
+#进入浏览器设置-代理-手动配置代理，参数值同step 4
+```
