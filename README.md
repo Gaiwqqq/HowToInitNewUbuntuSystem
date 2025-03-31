@@ -171,9 +171,9 @@ cd Clash for Windows-0.20.39-x64-linux
 # step 4
 #更改ubuntu系统代理
 #进入ubuntu设置-网络-手动，修改如下参数
-#"HTTP代理（H）" : 127.0.0.1 7890
-#"HTTPS代理（T）" : 127.0.0.1 7890
-#"Socks主机（S）": 127.0.0.1 7891
+"HTTP代理（H）" : 127.0.0.1 7890
+"HTTPS代理（T）" : 127.0.0.1 7890
+"Socks主机（S）": 127.0.0.1 7891
 
 # step 5
 #与windows下的clash使用方法相同，在cfw-Profiles-import导入节点
